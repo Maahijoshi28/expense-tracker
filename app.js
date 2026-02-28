@@ -7,6 +7,10 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+// --- ADDED THIS LINE ---
+// This tells Express to serve your index.html file from the current directory
+app.use(express.static(__dirname)); 
+
 // Database Setup
 const dbPath = path.join(__dirname, 'expenses.db');
 const db = new sqlite3.Database(dbPath);
