@@ -1,0 +1,12 @@
+# Expense Tracker API
+A simple, robust backend for managing expenses built with Node.js, Express, and MongoDB.
+
+## Features
+- **RESTful API**: Easily add and track expenses.
+- **Data Persistence**: Uses MongoDB for reliable storage.
+- **Scalable**: Built with Mongoose for structured data schemas.
+
+## How to Run
+1. `npm install`
+2. `node app.js`
+3. Open `index.html` in your browser to interact with the API.
